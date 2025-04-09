@@ -27,3 +27,56 @@ ol{
     background-color: red;
     font-size: 50px;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #2980b9;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+td {
+    background-color: #f9f9f9;
+}
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para mejorar la interacción */
+tr:hover td {
+    background-color: #d3eafc;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para pie de página */
+footer {
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
